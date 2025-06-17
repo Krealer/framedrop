@@ -8,6 +8,16 @@ A lightweight tool to reduce the frame rate of video files using FFmpeg.
 - Command-line interface
 - Easily extendable to support other video utilities
 
+## Batch Conversion
+
+Place videos inside the `input/` folder and run:
+
+```bash
+python batch_convert.py
+```
+
+Converted files will be saved to `output/` with a `_10fps` suffix.
+
 ## Requirements
 
 - Python 3.7+
