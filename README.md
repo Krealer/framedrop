@@ -29,6 +29,16 @@ venv\Scripts\activate.bat          # On Windows CMD
 
 # Install dependencies
 pip install -r requirements.txt
+
+```
+
+## Recomended Steps
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+```bash
+ffmpeg -i input.mp4 -filter:v fps=10 output.mp4
 ```
 ![Python](https://img.shields.io/badge/python-3.7%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
